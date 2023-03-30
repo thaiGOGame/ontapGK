@@ -11,7 +11,7 @@
         margin: 5px 10px;
     }
     #center{
-        margin: 5px 20px;
+        margin: 5px 100px;
     }
     .flex_space_between{
         display: flex;
@@ -29,6 +29,8 @@
         align-items: center;
     }
     .light_green_button{
+        width: 100px;
+        height: 45px;
         padding: 15px 30px;
         background-color: mediumseagreen;
         color: white;
@@ -36,11 +38,19 @@
         border: none;
     }
     .white_button{
+        width: 100px;
+        height: 45px;
+        text-align: center;
         padding: 15px 30px;
         background-color: white;
         color: mediumseagreen;
         border-radius: 5px;
         border: none;
+    }
+    .flex_column_40{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
     }
 </style>
 <body>
@@ -63,6 +73,20 @@
             </div>
         </div>
         </div>
+        <div id="center" class="flex_column">
+        <h1 class="flex_center">Feature name</h1>
+        <div class="flex_center" style="width: 800px;text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi modi sit rem molestias fugit enim exercitationem eos neque, commodi accusantium?</div>
+        <img src="images/Image 1540.png" alt="" style="margin-top: 20px;width: 100%;">
+        <div class="flex_space_between">
+            <div class="flex_column_40">
+                <h2>Feature benifit</h2>
+                <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore quo adipisci, pariatur consectetur omnis delectus at cupiditate id ea dolorem vero eius blanditiis ut non autem illo, enim asperiores! Architecto..Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore rerum architecto ut! Nostrum, error tenetur. Neque, distinctio nisi. Delectus esse corporis optio provident odit quisquam accusantium beatae perspiciatis aliquam dicta?</div>
+                <input type="button" style="margin-top: 20px;" class="light_green_button" value="Try now">
+            </div>
+            <img src="images/Image 1544.png" alt="">
+        </div>
+        
+    </div>
     </div>
 </body>
 </html>
